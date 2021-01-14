@@ -1,0 +1,7 @@
+.arrowDown {
+  transform: translateY(-45%) rotate(135deg);
+}
+
+.arrowRight {
+  transform: translateX(-45%) rotate(45deg);
+}

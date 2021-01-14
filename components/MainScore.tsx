@@ -5,6 +5,7 @@ import {
   PlasmicMainScore,
   DefaultMainScoreProps
 } from "./plasmic/vercel_analytics/PlasmicMainScore";
+import sty from '../styles/MainScore.module.css';
 
 // Your component props start with props for variants and slots you defined
 // in Plasmic, but you can add more here, like event handlers that you can
@@ -36,7 +37,17 @@ function MainScore(props: MainScoreProps) {
   //
   // By default, we are just piping all MainScoreProps here, but feel free
   // to do whatever works for you.
-  return <PlasmicMainScore {...props} />
+  return (
+    <PlasmicMainScore 
+      {...props} 
+      arrowDown={{
+        className: sty.arrowDown
+      }}
+      arrowRight={{
+        className: sty.arrowRight
+      }}
+    />
+  );
 }
 
 export default MainScore;
