@@ -1,0 +1,34 @@
+.root {
+  display: flex;
+  background-color: rgb(0, 112, 243);
+  flex-direction: row;
+  position: relative;
+  height: 48px;
+  align-items: center;
+  transition-property: background, color;
+  transition-duration: 0.2s, 0.2s;
+  box-shadow: 0px 5px 10px 0px rgba(0, 68, 255, 0.12);
+  border-radius: 7px;
+  padding: 0px 14px;
+  border: 1px solid rgb(7, 97, 209);
+}
+.root__type_secondary {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.12);
+  border-width: 0px;
+}
+.root:hover {
+  background-color: rgba(0, 118, 255, 0.9);
+  background-image: none;
+}
+.root__type_secondary:hover {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+.slotChildren {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  white-space: pre;
+}
+.slotChildren__type_secondary {
+  color: rgb(68, 68, 68) /* plasmic-token: 82Abn2fng */;
+}

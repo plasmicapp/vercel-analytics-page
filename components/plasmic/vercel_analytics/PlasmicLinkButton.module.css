@@ -1,0 +1,19 @@
+.root {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  height: 48px;
+  align-items: center;
+  transition-property: background, color;
+  transition-duration: 0.2s, 0.2s;
+  border-radius: 7px;
+  padding: 0px 14px;
+}
+.root:hover {
+  background-color: rgba(0, 68, 255, 0.06);
+}
+.slotChildren {
+  font-weight: 500;
+  color: rgb(0, 112, 243) /* plasmic-token: FOsGzLOVu */;
+  white-space: pre;
+}

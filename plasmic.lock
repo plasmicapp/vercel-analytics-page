@@ -1,0 +1,10 @@
+{
+  "projects": [
+    {
+      "projectId": "tHfoxu6XFvmk837xn6JEtW",
+      "version": "latest",
+      "dependencies": {}
+    }
+  ],
+  "cliVersion": "0.1.92"
+}

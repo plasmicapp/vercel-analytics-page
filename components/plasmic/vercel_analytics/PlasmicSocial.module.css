@@ -1,0 +1,27 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin-left: calc(0px - 29px);
+  width: calc(100% + 29px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 29px;
+}
+.svg__xAdGy {
+  width: 1em;
+  height: 1em;
+  object-fit: cover;
+}
+.svg__mp8Ho {
+  width: 1em;
+  height: 1em;
+  position: relative;
+  object-fit: cover;
+}

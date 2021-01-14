@@ -1,0 +1,7 @@
+.root {
+  display: flex;
+  position: relative;
+}
+.slotChildren {
+  font-size: 14px;
+}

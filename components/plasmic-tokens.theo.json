@@ -1,0 +1,89 @@
+{
+  "props": [
+    {
+      "name": "Light Gray",
+      "type": "color",
+      "value": "rgb(249,249,249)",
+      "category": "color",
+      "meta": {
+        "projectId": "tHfoxu6XFvmk837xn6JEtW",
+        "id": "UydtTvHhx"
+      }
+    },
+    {
+      "name": "Link",
+      "type": "color",
+      "value": "rgb(0,112,243)",
+      "category": "color",
+      "meta": {
+        "projectId": "tHfoxu6XFvmk837xn6JEtW",
+        "id": "FOsGzLOVu"
+      }
+    },
+    {
+      "name": "accents-1",
+      "type": "color",
+      "value": "rgb(250,250,250)",
+      "category": "color",
+      "meta": {
+        "projectId": "tHfoxu6XFvmk837xn6JEtW",
+        "id": "b9iucGlST"
+      }
+    },
+    {
+      "name": "accents-2",
+      "type": "color",
+      "value": "rgb(234,234,234)",
+      "category": "color",
+      "meta": {
+        "projectId": "tHfoxu6XFvmk837xn6JEtW",
+        "id": "a_8vTsLPN"
+      }
+    },
+    {
+      "name": "accents-3",
+      "type": "color",
+      "value": "rgb(153,153,153)",
+      "category": "color",
+      "meta": {
+        "projectId": "tHfoxu6XFvmk837xn6JEtW",
+        "id": "EbMuUnCk2"
+      }
+    },
+    {
+      "name": "accents-5",
+      "type": "color",
+      "value": "rgb(102,102,102)",
+      "category": "color",
+      "meta": {
+        "projectId": "tHfoxu6XFvmk837xn6JEtW",
+        "id": "FktNWRdec"
+      }
+    },
+    {
+      "name": "accents-6",
+      "type": "color",
+      "value": "rgb(68,68,68)",
+      "category": "color",
+      "meta": {
+        "projectId": "tHfoxu6XFvmk837xn6JEtW",
+        "id": "82Abn2fng"
+      }
+    },
+    {
+      "name": "geist-foreground",
+      "type": "color",
+      "value": "rgb(0,0,0)",
+      "category": "color",
+      "meta": {
+        "projectId": "tHfoxu6XFvmk837xn6JEtW",
+        "id": "dshB_IC4T"
+      }
+    }
+  ],
+  "global": {
+    "meta": {
+      "source": "plasmic.app"
+    }
+  }
+}
