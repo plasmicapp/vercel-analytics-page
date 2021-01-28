@@ -46,13 +46,12 @@ import projectcss from "./plasmic_vercel_analytics.module.css"; // plasmic-impor
 import sty from "./PlasmicVercelPageShell.module.css"; // plasmic-import: CFp7a5ZuqR/css
 
 import VercelLogoIcon from "./icons/PlasmicIcon__VercelLogo"; // plasmic-import: zpcflSlTXc/icon
+import IconIcon from "./icons/PlasmicIcon__Icon"; // plasmic-import: QRRND2nGCn/icon
 
 export type PlasmicVercelPageShell__VariantMembers = {};
 export type PlasmicVercelPageShell__VariantsArgs = {};
 type VariantPropType = keyof PlasmicVercelPageShell__VariantsArgs;
-export const PlasmicVercelPageShell__VariantProps = new Array<
-  VariantPropType
->();
+export const PlasmicVercelPageShell__VariantProps = new Array<VariantPropType>();
 
 export type PlasmicVercelPageShell__ArgsType = {
   children?: React.ReactNode;
@@ -648,7 +647,7 @@ function PlasmicVercelPageShell__RenderFunc(props: {
                         {"Light"}
                       </div>
 
-                      <svg
+                      <IconIcon
                         className={classNames(defaultcss.all, sty.svg__umO1)}
                         role={"img"}
                       />

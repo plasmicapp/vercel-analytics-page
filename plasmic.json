@@ -36,7 +36,8 @@
             "modulePath": "VercelPageShell.tsx"
           },
           "cssFilePath": "plasmic/vercel_analytics/PlasmicVercelPageShell.module.css",
-          "scheme": "blackbox"
+          "scheme": "blackbox",
+          "componentType": "component"
         },
         {
           "id": "-2zrKBb31E",
@@ -48,7 +49,8 @@
             "modulePath": "PerfScore.tsx"
           },
           "cssFilePath": "plasmic/vercel_analytics/PlasmicPerfScore.module.css",
-          "scheme": "blackbox"
+          "scheme": "blackbox",
+          "componentType": "component"
         },
         {
           "id": "R1EHrPSYL9",
@@ -60,7 +62,8 @@
             "modulePath": "Separator.tsx"
           },
           "cssFilePath": "plasmic/vercel_analytics/PlasmicSeparator.module.css",
-          "scheme": "blackbox"
+          "scheme": "blackbox",
+          "componentType": "component"
         },
         {
           "id": "GTVCcv3dv5",
@@ -72,7 +75,8 @@
             "modulePath": "Button.tsx"
           },
           "cssFilePath": "plasmic/vercel_analytics/PlasmicButton.module.css",
-          "scheme": "blackbox"
+          "scheme": "blackbox",
+          "componentType": "component"
         },
         {
           "id": "O-jfv66HU6",
@@ -84,7 +88,8 @@
             "modulePath": "NumListItem.tsx"
           },
           "cssFilePath": "plasmic/vercel_analytics/PlasmicNumListItem.module.css",
-          "scheme": "blackbox"
+          "scheme": "blackbox",
+          "componentType": "component"
         },
         {
           "id": "vcKKQo6nI4",
@@ -96,7 +101,8 @@
             "modulePath": "FooterExpando.tsx"
           },
           "cssFilePath": "plasmic/vercel_analytics/PlasmicFooterExpando.module.css",
-          "scheme": "blackbox"
+          "scheme": "blackbox",
+          "componentType": "component"
         },
         {
           "id": "WS3v7GNI-7",
@@ -108,7 +114,8 @@
             "modulePath": "Badge.tsx"
           },
           "cssFilePath": "plasmic/vercel_analytics/PlasmicBadge.module.css",
-          "scheme": "blackbox"
+          "scheme": "blackbox",
+          "componentType": "component"
         },
         {
           "id": "8UTBVvBWCN",
@@ -120,7 +127,8 @@
             "modulePath": "FooterLink.tsx"
           },
           "cssFilePath": "plasmic/vercel_analytics/PlasmicFooterLink.module.css",
-          "scheme": "blackbox"
+          "scheme": "blackbox",
+          "componentType": "component"
         },
         {
           "id": "UEtI0aDH9l",
@@ -132,7 +140,8 @@
             "modulePath": "Social.tsx"
           },
           "cssFilePath": "plasmic/vercel_analytics/PlasmicSocial.module.css",
-          "scheme": "blackbox"
+          "scheme": "blackbox",
+          "componentType": "component"
         },
         {
           "id": "JlH9ogfVmy",
@@ -144,7 +153,8 @@
             "modulePath": "Status.tsx"
           },
           "cssFilePath": "plasmic/vercel_analytics/PlasmicStatus.module.css",
-          "scheme": "blackbox"
+          "scheme": "blackbox",
+          "componentType": "component"
         },
         {
           "id": "TzGc970Ffx",
@@ -156,7 +166,8 @@
             "modulePath": "HeaderLink.tsx"
           },
           "cssFilePath": "plasmic/vercel_analytics/PlasmicHeaderLink.module.css",
-          "scheme": "blackbox"
+          "scheme": "blackbox",
+          "componentType": "component"
         },
         {
           "id": "5-PHy2lJJl",
@@ -168,7 +179,8 @@
             "modulePath": "LinkButton.tsx"
           },
           "cssFilePath": "plasmic/vercel_analytics/PlasmicLinkButton.module.css",
-          "scheme": "blackbox"
+          "scheme": "blackbox",
+          "componentType": "component"
         },
         {
           "id": "zpoU_12dwW",
@@ -180,7 +192,8 @@
             "modulePath": "MainScore.tsx"
           },
           "cssFilePath": "plasmic/vercel_analytics/PlasmicMainScore.module.css",
-          "scheme": "blackbox"
+          "scheme": "blackbox",
+          "componentType": "component"
         },
         {
           "id": "VR1e9QZukPo",
@@ -192,7 +205,8 @@
             "modulePath": "AnalyticsPageContent.tsx"
           },
           "cssFilePath": "plasmic/vercel_analytics/PlasmicAnalyticsPageContent.module.css",
-          "scheme": "blackbox"
+          "scheme": "blackbox",
+          "componentType": "component"
         },
         {
           "id": "GVdbGHFfmL",
@@ -204,7 +218,8 @@
             "modulePath": "LargeScoreCard.tsx"
           },
           "cssFilePath": "plasmic/vercel_analytics/PlasmicLargeScoreCard.module.css",
-          "scheme": "blackbox"
+          "scheme": "blackbox",
+          "componentType": "component"
         },
         {
           "id": "B1a1ef23CM",
@@ -216,7 +231,8 @@
             "modulePath": "SmallScoreCard.tsx"
           },
           "cssFilePath": "plasmic/vercel_analytics/PlasmicSmallScoreCard.module.css",
-          "scheme": "blackbox"
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [
@@ -249,6 +265,11 @@
           "id": "oPMdCVpCC",
           "name": "SmallScoreIcon",
           "moduleFilePath": "plasmic/vercel_analytics/icons/PlasmicIcon__SmallScore.tsx"
+        },
+        {
+          "id": "QRRND2nGCn",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/vercel_analytics/icons/PlasmicIcon__Icon.tsx"
         }
       ],
       "images": [
@@ -309,6 +330,6 @@
   "nextjsConfig": {
     "pagesDir": "../pages"
   },
-  "cliVersion": "0.1.92",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.92/dist/plasmic.schema.json"
+  "cliVersion": "0.1.95",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.95/dist/plasmic.schema.json"
 }
