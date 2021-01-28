@@ -8,6 +8,7 @@
   transition-property: background, color;
   transition-duration: 0.2s, 0.2s;
   box-shadow: 0px 5px 10px 0px rgba(0, 68, 255, 0.12);
+  cursor: pointer;
   border-radius: 7px;
   padding: 0px 14px;
   border: 1px solid rgb(7, 97, 209);

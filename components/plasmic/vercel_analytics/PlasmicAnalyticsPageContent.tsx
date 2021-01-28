@@ -49,9 +49,7 @@ import VercelLogoMarkIcon from "./icons/PlasmicIcon__VercelLogoMark"; // plasmic
 export type PlasmicAnalyticsPageContent__VariantMembers = {};
 export type PlasmicAnalyticsPageContent__VariantsArgs = {};
 type VariantPropType = keyof PlasmicAnalyticsPageContent__VariantsArgs;
-export const PlasmicAnalyticsPageContent__VariantProps = new Array<
-  VariantPropType
->();
+export const PlasmicAnalyticsPageContent__VariantProps = new Array<VariantPropType>();
 
 export type PlasmicAnalyticsPageContent__ArgsType = {
   screen?: string;
@@ -65,7 +63,7 @@ export const PlasmicAnalyticsPageContent__ArgProps = new Array<ArgPropType>(
 export type PlasmicAnalyticsPageContent__OverridesType = {
   body?: p.Flex<"div">;
   heroSection?: p.Flex<"div">;
-  h3?: p.Flex<"h3">;
+  heroDescription?: p.Flex<"h3">;
   getYourScoreButton?: p.Flex<typeof Button>;
   bigScore?: p.Flex<"img">;
   dashboardSection?: p.Flex<"div">;
@@ -126,13 +124,17 @@ function PlasmicAnalyticsPageContent__RenderFunc(props: {
               sty.box__mzUr7
             )}
           >
-            {"Your True Lighthouse"}
+            {"Your True Lighthouse Score!!"}
           </div>
 
           <h3
-            data-plasmic-name={"h3"}
-            data-plasmic-override={overrides.h3}
-            className={classNames(defaultcss.h3, defaultcss.__wab_text, sty.h3)}
+            data-plasmic-name={"heroDescription"}
+            data-plasmic-override={overrides.heroDescription}
+            className={classNames(
+              defaultcss.h3,
+              defaultcss.__wab_text,
+              sty.heroDescription
+            )}
           >
             {
               "Vercel Analytics provides your Real Experience Score through data from actual visitors. Adopt a performance focused workflow and leave manual and synthetic tests behind."
@@ -271,7 +273,7 @@ function PlasmicAnalyticsPageContent__RenderFunc(props: {
           >
             {hasVariant(globalVariants, "screen", "tablet")
               ? "Obtain your Real Experience Score"
-              : "Obtain your\nReal Experience Score"}
+              : "Obtain your Real Experience Score!!!!!!!!!!!"}
           </div>
 
           <div
@@ -531,7 +533,7 @@ const PlasmicDescendants = {
   body: [
     "body",
     "heroSection",
-    "h3",
+    "heroDescription",
     "getYourScoreButton",
     "bigScore",
     "dashboardSection",
@@ -554,8 +556,14 @@ const PlasmicDescendants = {
     "contactButton"
   ],
 
-  heroSection: ["heroSection", "h3", "getYourScoreButton", "bigScore"],
-  h3: ["h3"],
+  heroSection: [
+    "heroSection",
+    "heroDescription",
+    "getYourScoreButton",
+    "bigScore"
+  ],
+
+  heroDescription: ["heroDescription"],
   getYourScoreButton: ["getYourScoreButton"],
   bigScore: ["bigScore"],
   dashboardSection: [
@@ -625,7 +633,7 @@ type DescendantsType<
 type NodeDefaultElementType = {
   body: "div";
   heroSection: "div";
-  h3: "h3";
+  heroDescription: "h3";
   getYourScoreButton: typeof Button;
   bigScore: "img";
   dashboardSection: "div";
@@ -707,7 +715,7 @@ export const PlasmicAnalyticsPageContent = Object.assign(
   {
     // Helper components rendering sub-elements
     heroSection: makeNodeComponent("heroSection"),
-    h3: makeNodeComponent("h3"),
+    heroDescription: makeNodeComponent("heroDescription"),
     getYourScoreButton: makeNodeComponent("getYourScoreButton"),
     bigScore: makeNodeComponent("bigScore"),
     dashboardSection: makeNodeComponent("dashboardSection"),
