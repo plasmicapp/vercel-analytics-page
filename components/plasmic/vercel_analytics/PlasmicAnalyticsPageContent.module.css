@@ -69,6 +69,7 @@
   width: 289px;
   height: 238px;
   z-index: 1;
+  margin-top: 21px;
   flex-shrink: 0;
 }
 @media (min-width: 768px) {
